@@ -9,5 +9,5 @@ build({
   watch: false,
   bundle: true,
   outfile: 'dist/bundle.js',
-  plugins: [GasPlugin]
+  plugins: [GasPlugin({parser:'acorn'})]
 })
